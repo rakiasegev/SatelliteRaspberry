@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Satellite Raspberry 
+We utilize the massive quantity of open-source satellite data to track and analyze quantitatively how natural stuctures have changed over time. Through image analysis and machine learning platforms we analyze this and present it for you to explore. You can look at specific locations and through Satellite Raspberry track deforestation, climate change effects, and fires. Awareness is the first step to change. This project seeks to help individuals and scientists make educated decisions on nature conservation efforts and first responder action. This issue is of growing importance as the effects of climate change become more severe. We are here to help make a change.
 
-## Available Scripts
+Utilizing Google Earth Engine's massive satellite database with over thirty years of data we strive to help make a change. 
 
-In the project directory, you can run:
+Satellite Imagery            |  Algorithms |  Real World Applications
+:-------------------------:|:-------------------------:|:-------------------------:
+![](static/images/Satellite.png "Satellite Imagery") |  ![](static/images/Algorithm.png "Algorithms") | ![](static/images/World.png "Real World Applications")
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Getting Started
+- clone this repository locally 
+- install dependencies 
+- launch on local server 
 
-### `yarn test`
+Mac/Unix Bash: 
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+Windows CMD: 
+```
+npm start
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Prerequisites
+> Install Node JS
+> npm install react
+> npm install react-dom
+> npm install react-router-dom
+> npm install react-bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# How to use: 
+When navigating the website, you can 
 
-### `yarn eject`
+- select a specific location to analyse: 
+- use the map on the home page to navigate to a specific location 
+- select the year you would like to see 
+- look at various analysis of the data, as well as comparison with present day 
+- choose between the curated news sources about the location/date selected 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Built With
+- React JS
+- SQL
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Contributing
+When submitting pull requests, please state clearly what changes were made, and what purpose they serve. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Authors
+Rakia Segev, Shivam Malpani, Anisha Tandon 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# License
+This project is licensed under the MIT License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Acknowledgments
+We used Google Maps API to implement location specification as well as time-based filtering. Our data was all obtained from the open-source database: NASA EPIC and Google Earth Engine. We would like to thank Prof. Colleen Lewis for her guidance and support. 
