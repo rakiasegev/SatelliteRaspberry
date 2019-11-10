@@ -5,7 +5,7 @@ Utilizing Google Earth Engine's massive satellite database with over thirty year
 
 Satellite Imagery            |  Algorithms |  Real World Applications
 :-------------------------:|:-------------------------:|:-------------------------:
-![](Satellite.png "Satellite Imagery") |  ![](Algorithm.png "Algorithms") | ![](World.png "Real World Applications")
+![]("Satellite.png "Satellite Imagery") |  ![]("Algorithm.png "Algorithms") | ![]("World.png "Real World Applications")
 
 
 
@@ -27,11 +27,11 @@ npm start
 
 
 # Prerequisites
-> Install Node JS
-> npm install react
-> npm install react-dom
-> npm install react-router-dom
-> npm install react-bootstrap
+```Install Node JS
+npm install react
+npm install react-dom
+npm install react-router-dom
+npm install react-bootstrap```
 
 # How to use: 
 When navigating the website, you can 

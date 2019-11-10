@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import background from 'slide01.png';
 
 class Home extends Component {
   render() {
     return (
         <div>
-          <img src={background}/>
                 <div class="container">
                         <div class="row">
                             <header id="header" class="alt">
