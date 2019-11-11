@@ -27,11 +27,13 @@ npm start
 
 
 # Prerequisites
-```Install Node JS
+Install Node JS and create a Google Firebase account then
+```
 npm install react
 npm install react-dom
 npm install react-router-dom
-npm install react-bootstrap```
+npm install react-bootstrap
+```
 
 # How to use: 
 When navigating the website, you can 

@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 
+
+//classes = makeStyles(theme => ({
+  //root: {
+    //padding: theme.spacing(3, 2),
+  //},
+//}))
 class About extends Component {
   render() {
     return (
         <div>
-          <h2>About</h2>
+          <Paper >
+        <Typography variant="h5" component="h3">
+        <h2>About</h2>
 								<p>Our Mission</p>
-								<h2>Environmental Awareness in a Click</h2>
+        </Typography>
+        <Typography component="p">
+        <h2>Environmental Awareness in a Click</h2>
 							<p>We utilize the massive quantity of open-source satellite data to track and analyze quantitatively how natural stuctures have changed over time. 
 								Through image analysis and machine learning platforms we analyze this and present it for you to explore. 
 								You can look at specific locations and through Satellite Raspberry track deforestation, climate change effects, and fires.</p>
@@ -16,7 +29,9 @@ class About extends Component {
 								This issue is of growing importance as the effects of climate change become more severe. We are here to help make a change.
 
 								We also would like to reference the open source platforms we use in case you want to explore them: Earth Engine.
-							</p></div>
+							</p>      </Typography>
+      </Paper>
+      </div>  
     );
   }
 }

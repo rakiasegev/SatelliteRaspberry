@@ -12,4 +12,7 @@ const app  = firebase.initializeApp({
     measurementId: "G-L42S06X6X5"
   });
 
+firebase.initializeApp(config)
+const storage = firebase.storage().ref()
+
 export default app;
