@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+import { positions } from '@material-ui/system';
 
 
 //classes = makeStyles(theme => ({
@@ -13,7 +15,7 @@ class About extends Component {
   render() {
     return (
         <div>
-          <Paper >
+        <Box m={3} bgcolor="background.paper">
         <Typography variant="h5" component="h3">
         <h2>About</h2>
 								<p>Our Mission</p>
@@ -30,7 +32,7 @@ class About extends Component {
 
 								We also would like to reference the open source platforms we use in case you want to explore them: Earth Engine.
 							</p>      </Typography>
-      </Paper>
+      </Box>
       </div>  
     );
   }

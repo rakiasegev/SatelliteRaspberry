@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import storage from './firebaseConfig.js';
+import {storage} from './firebaseConfig.js';
 
 class Home extends Component {
   constructor () {
@@ -8,13 +8,14 @@ class Home extends Component {
      background: '',
     }
     
-    this.getImage('slide01.png')
+    this.getImage('slide01')
   }
   
   getImage (image) {
     let { state } = this
-    storage.storage().ref().child(`${image}.png`).getDownloadURL().then((url) => {
+    storage.child(`${image}.png`).getDownloadURL().then((url) => {
       state[image] = url
+      console.log(url)
       this.setState(state)
     }).catch((error) => {
        //Handle any errors
