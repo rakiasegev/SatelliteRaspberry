@@ -33,6 +33,11 @@ npm install react
 npm install react-dom
 npm install react-router-dom
 npm install react-bootstrap
+npm install @material-ui/icons
+npm install @material-ui/core
+npm install mdbreact 
+npm install firebase 
+
 ```
 
 # How to use: 

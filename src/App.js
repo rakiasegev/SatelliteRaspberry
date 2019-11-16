@@ -60,39 +60,46 @@ function App() {
     >
      <List>
         {['Home'].map((text, index) => (
-          <ListItem button key={text} href="/home">
+          <ListItem button key={text} component={Link} to ="/home">
             <ListItemIcon>{ <HomeIcon />}</ListItemIcon>
             <ListItemText primary={text}/>
-            <Link ></Link>
           </ListItem>
         ))}
       </List>
       <List>
         {['About'].map((text, index) => (
-          <ListItem button key={text} href="/about" >
+          <ListItem button key={text} component={Link} to ="/about" >
             <ListItemIcon >{ <PublicIcon />}</ListItemIcon>
             <ListItemText primary={text} onClick={'./components/home'}/>
-            <Link ></Link>
           </ListItem>
         ))}
       </List>
       <List>
         {['News'].map((text, index) => (
-          <ListItem button key={text} href="/about" >
-            <ListItemIcon>{ <NewReleasesIcon />}</ListItemIcon>
+          <ListItem button key={text} component={Link} to ="/news" >
+          <ListItemIcon>{ <NewReleasesIcon />}</ListItemIcon>
             <ListItemText primary={text} onClick={'./components/news'}/>
             <Link ></Link>
           </ListItem>
         ))}
       </List>
       <List>
-        {['Maps', 'Satellite'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <MapIcon /> : <SatelliteIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+        {['Maps'].map((text, index) => (
+          <ListItem button key={text} component={Link} to ="/maps" >
+          <ListItemIcon>{<MapIcon />}</ListItemIcon>
+            <ListItemText primary={text} onClick={'./components/maps'} />
           </ListItem>
         ))}
       </List>
+      {/* ideally we should have a satellite tab for when our satellite images work 
+      <List>
+        {['Satellite'].map((text, index) => (
+          <ListItem button key={text} component={Link} to ="/maps" >
+          <ListItemIcon>{<MapIcon />}</ListItemIcon>
+            <ListItemText primary={text} onClick={'./components/maps'} />
+          </ListItem>
+        ))}
+      </List> */}
     </div>
   );
 
