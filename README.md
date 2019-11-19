@@ -5,7 +5,7 @@ Utilizing Google Earth Engine's massive satellite database with over thirty year
 
 Satellite Imagery            |  Algorithms |  Real World Applications
 :-------------------------:|:-------------------------:|:-------------------------:
-![]("Satellite.png "Satellite Imagery") |  ![]("Algorithm.png "Algorithms") | ![]("World.png "Real World Applications")
+![]("Satellite.png" "Satellite Imagery") |  ![]("Algorithm.png" "Algorithms") | ![]("World.png" "Real World Applications")
 
 
 
