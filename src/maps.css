@@ -1,5 +1,4 @@
 #classicformpage .view {
-    background-image: url(${Background});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -47,5 +46,5 @@
   }
   
   #classicformpage label {
-    color: #fff !important;
+    color:transparent;
   }
