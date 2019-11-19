@@ -13,7 +13,7 @@ class News extends Component {
     axios.get('https://cors-anywhere.herokuapp.com/https://us-central1-cs121-1569887619031.cloudfunctions.net/getNews',
     {
       params: {
-      "data":"Mumbai"
+      "newsItem":"fridge"
     }
     })
     .then(response=> console.log(response))
@@ -28,13 +28,13 @@ class News extends Component {
           <SearchBar
             onChange={() => console.log('onChange')}
             onRequestSearch={() => this.handleClick()}
+            
             style={{
             margin: '0 auto',
             maxWidth: 800
       }}
     />
         </MuiThemeProvider>
-
        </div>
     );
   }
