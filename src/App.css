@@ -68,7 +68,9 @@
     background: #424f95 !important;
   }
 }
-
+body {
+  font-family: 'Titillium Web', sans-serif
+}
 #classicformpage label {
   color: transparent;
 }

@@ -7,7 +7,10 @@ import News from './components/news';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Background from './components/slide01.png';
-
+import Container from '@material-ui/core/Container';
+import GoogleFontLoader from 'react-google-font-loader';
+import { fade } from '@material-ui/core/styles/colorManipulator';
+import Divider from '@material-ui/core/Divider';
 
 // Material UI imports for side menu
 import { makeStyles } from '@material-ui/core/styles'; 
@@ -111,10 +114,23 @@ function App() {
   };
 
   return (
-        <div style={sectionStyle}  >
-          <h2>Satellite Raspberry</h2>
+      <Container maxWidth="100%" style={{background: `url(${Background})`, height: '100vh' }}>
+          <GoogleFontLoader
+      fonts={[
+        {
+          font: 'Lato',
+          weights: [400, '400i'],
+        },
+        {
+          font: 'Lato',
+          weights: [400, 700],
+        },
+      ]}
+      subsets={['cyrillic-ext', 'greek']}/>
+      <h2 style={{color: "white", fontFamily: 'Lato, sans-serif' }}>Satellite Raspberry</h2>
+          
+          <Button style={{color: "white", float: 'right'}} onClick={toggleDrawer('right', true)}><p style={{fontFamily: 'Lato, sans-serif'}}>Menu</p></Button>
           <Router>
-          <Button onClick={toggleDrawer('right', true)}>Menu</Button>
           <Drawer anchor="right" open={state.right} onClose={toggleDrawer('right', false)}>
            {sideList('right')}
           </Drawer>
@@ -125,7 +141,7 @@ function App() {
               <Route path='/news' component={News} />
           </Switch>
           </Router>
-          </div>
+          </Container>
    );
 }
 
