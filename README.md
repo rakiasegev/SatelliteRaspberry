@@ -38,6 +38,7 @@ npm install @material-ui/core
 npm install mdbreact 
 npm install firebase 
 npm install axios
+npm install --save @google/earthengine 
 
 ```
 
