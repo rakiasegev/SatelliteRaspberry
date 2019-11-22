@@ -6,8 +6,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import axios from 'axios';
 //import YOUR_CLIENT_ID from '../process.env.YOUR_CLIENT_ID';
 
-
 // getting coordinates, making API call to Google functions 
+
 class Maps extends React.Component {
   constructor(props){
     super(props);
