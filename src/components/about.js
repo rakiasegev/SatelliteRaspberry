@@ -23,6 +23,7 @@ class About extends Component {
 								This issue is of growing importance as the effects of climate change become more severe. We are here to help make a change.
 
 								We also would like to reference the open source platforms we use in case you want to explore them: Earth Engine.
+
 							</p> 
       </Container>
       </Container>
