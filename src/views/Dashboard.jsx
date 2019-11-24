@@ -129,10 +129,6 @@ class Dashboard extends React.Component {
                   <p className="card-category">Different Worlds You Never Saw</p>
                 </CardHeader>
                 <CardBody>
-                <img
-                    alt="..."
-                    src={require("assets/img/slide01.png")}
-                  />
                 </CardBody>
               </Card>
             </Col>

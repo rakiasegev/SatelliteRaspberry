@@ -1,4 +1,4 @@
-# [Satellite Raspberry]
+# Satellite Raspberry
 We utilize the massive quantity of open-source satellite data to track and analyze quantitatively how natural stuctures have changed over time. Through image analysis and machine learning platforms we analyze this and present it for you to explore. You can look at specific locations and through Satellite Raspberry track deforestation, climate change effects, and fires. Awareness is the first step to change. This project seeks to help individuals and scientists make educated decisions on nature conservation efforts and first responder action. This issue is of growing importance as the effects of climate change become more severe. We are here to help make a change.
 
 Utilizing Google Earth Engine's massive satellite database with over thirty years of data we strive to help make a change. 
@@ -54,13 +54,9 @@ Within the download you'll find the following directories and files:
     │   └── icons.jsx
     ├── views
     │   ├── Dashboard.jsx
-    │   ├── Icons.jsx
+    │   ├── About.jsx
     │   ├── Map.jsx
-    │   ├── Notifications.jsx
-    │   ├── Tables.jsx
-    │   ├── Typography.jsx
-    │   ├── Upgrade.jsx
-    │   └── User.jsx
+    │   ├── News.jsx
     └── assets
         ├── css
         │   ├── paper-dashboard.css
@@ -68,9 +64,7 @@ Within the download you'll find the following directories and files:
         │   └── paper-dashboard.min.css
         ├── demo
         ├── fonts
-        ├── github
         ├── img
-        │   └── faces
         └── scss
             ├── paper-dashboard
             │   ├── cards
