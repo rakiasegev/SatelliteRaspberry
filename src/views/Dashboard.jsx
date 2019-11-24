@@ -9,6 +9,8 @@ import {
   Row,
   Col
 } from "reactstrap";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 class Dashboard extends React.Component {
   render() {
@@ -125,10 +127,26 @@ class Dashboard extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>
-                  <CardTitle tag="h5">Satellite Images</CardTitle>
-                  <p className="card-category">Different Worlds You Never Saw</p>
+                  <CardTitle tag="h5">"You must be the change you wish to see in the world." Mahatma Gandhi</CardTitle>
+                  <p style={{color:"grey"}}>We can't ignore the dramatic ice melting in the Arctic any longer. </p>
                 </CardHeader>
                 <CardBody>
+                <Carousel autoPlay='true' showThumbs='false' transitionTime='200' infiniteLoop='true'>
+                <div>
+                <img
+                    alt="..."
+                    src={require("assets/img/greenland1984.png")}
+                  />
+                </div>
+                <div>
+                <img
+                    alt="..."
+                    src={require("assets/img/greenland2018.png")}
+                  />
+                </div>              
+            </Carousel>  
+            <p style={{color:"grey"}}>Image Source NYT</p>
+
                 </CardBody>
               </Card>
             </Col>

@@ -3,8 +3,6 @@ import axios from 'axios';
 
 // reactstrap components
 import {
-  UncontrolledAlert,
-  Alert,
   Button,
   Card,
   Form,
