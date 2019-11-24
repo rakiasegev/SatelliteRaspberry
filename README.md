@@ -1,45 +1,85 @@
-# Satellite Raspberry 
+# [Satellite Raspberry]
 We utilize the massive quantity of open-source satellite data to track and analyze quantitatively how natural stuctures have changed over time. Through image analysis and machine learning platforms we analyze this and present it for you to explore. You can look at specific locations and through Satellite Raspberry track deforestation, climate change effects, and fires. Awareness is the first step to change. This project seeks to help individuals and scientists make educated decisions on nature conservation efforts and first responder action. This issue is of growing importance as the effects of climate change become more severe. We are here to help make a change.
 
 Utilizing Google Earth Engine's massive satellite database with over thirty years of data we strive to help make a change. 
 
-Satellite Imagery            |  Algorithms |  Real World Applications
-:-------------------------:|:-------------------------:|:-------------------------:
-![]("Satellite.png "Satellite Imagery") |  ![]("Algorithm.png "Algorithms") | ![]("World.png "Real World Applications")
+## Quick start
 
+Quick start options:
 
-
-# Getting Started
-- clone this repository locally 
-- install dependencies 
+- `npm i paper-dashboard-react`
+- Clone the repo: `git clone `.
+- npm install axios
+- npm install material-ui
 - launch on local server 
 
-Mac/Unix Bash: 
-```
-npm start
-```
 
 
-Windows CMD: 
-```
-npm start
-```
+## File Structure
 
+Within the download you'll find the following directories and files:
 
-# Prerequisites
-Install Node JS and create a Google Firebase account then
 ```
-npm install react
-npm install react-dom
-npm install react-router-dom
-npm install react-bootstrap
-npm install @material-ui/icons
-npm install @material-ui/core
-npm install mdbreact 
-npm install firebase 
-npm install axios
-npm install --save @google/earthengine 
-
+├── CHANGELOG.md
+├── ISSUE_TEMPLATE.md
+├── LICENSE.md
+├── README.md
+├── docs
+│   └── documentation.html
+├── jsconfig.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── index.js
+    ├── logo-white.svg
+    ├── logo.svg
+    ├── routes.js
+    ├── components
+    │   ├── FixedPlugin
+    │   │   └── FixedPlugin.jsx
+    │   ├── Footer
+    │   │   └── Footer.jsx
+    │   ├── Navbars
+    │   │   └── DemoNavbar.jsx
+    │   └── Sidebar
+    │       └── Sidebar.jsx
+    ├── layouts
+    │   └── Admin.jsx
+    ├── variables
+    │   ├── charts.jsx
+    │   ├── general.jsx
+    │   └── icons.jsx
+    ├── views
+    │   ├── Dashboard.jsx
+    │   ├── Icons.jsx
+    │   ├── Map.jsx
+    │   ├── Notifications.jsx
+    │   ├── Tables.jsx
+    │   ├── Typography.jsx
+    │   ├── Upgrade.jsx
+    │   └── User.jsx
+    └── assets
+        ├── css
+        │   ├── paper-dashboard.css
+        │   ├── paper-dashboard.css.map
+        │   └── paper-dashboard.min.css
+        ├── demo
+        ├── fonts
+        ├── github
+        ├── img
+        │   └── faces
+        └── scss
+            ├── paper-dashboard
+            │   ├── cards
+            │   ├── mixins
+            │   ├── plugins
+            │   └── react
+            │       ├── custom
+            │       └── react-differences.scss
+            └── paper-dashboard.scss
 ```
 
 # How to use: 
@@ -65,4 +105,4 @@ Rakia Segev, Shivam Malpani, Anisha Tandon
 This project is licensed under the MIT License
 
 # Acknowledgments
-We used Google Maps API to implement location specification as well as time-based filtering. Our data was all obtained from the open-source database: NASA EPIC and Google Earth Engine. We would like to thank Prof. Colleen Lewis for her guidance and support. 
+We used Google Maps API to implement location specification as well as time-based filtering. Our data was all obtained from the open-source database: NASA EPIC and Google Earth Engine. Our UI was adapted from a template from Creative Tim. We would like to thank Prof. Colleen Lewis for her guidance and support. 
