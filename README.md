@@ -10,7 +10,7 @@ Quick start options:
 - `npm i paper-dashboard-react`
 - Clone the repo: `git clone `.
 - npm install axios
-- npm install material-ui
+- npm install react-responsive-carousel
 - launch on local server 
 
 
