@@ -1,7 +1,7 @@
 import Dashboard from "views/Dashboard.jsx";
 import News from "views/News.jsx";
 import About from "views/About.jsx";
-import Maps from "views/Map.jsx";
+import NASA from "views/NASA.jsx";
 
 var routes = [
   {
@@ -19,10 +19,10 @@ var routes = [
     layout: "/admin"
   },
   {
-    path: "/maps",
-    name: "Maps",
+    path: "/NASA",
+    name: "NASA Satellite",
     icon: "nc-icon nc-pin-3",
-    component: Maps,
+    component: NASA,
     layout: "/admin"
   },
   {

@@ -22,7 +22,9 @@ class News extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      value: "Enter City, Country"
+      value: "Enter City, Country",
+      isLoaded: false,
+      items: []
     };
   }
 
@@ -62,9 +64,11 @@ class News extends React.Component {
               className="btn-round"
               color="primary"
               type="submit"
-              onChange={(newValue) => this.setState({value: newValue})}
+              onChange={(newValue) => this.setState({value: newValue, isLoaded: true})}
               onRequestSearch={() => this.handleClick(this.state.value).then(data => {
                 // var my_response = {data}
+                //this.setState({items.push(data)});
+                //items: items.push(data);
                 document.write(data);
                 // update the state and write 
               })}
