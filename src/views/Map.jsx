@@ -163,6 +163,7 @@ class Map extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>Google Maps</CardHeader>
+                
                 <CardBody>
                   <div
                     id="map"

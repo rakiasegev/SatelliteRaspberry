@@ -7,7 +7,6 @@ Utilizing Google Earth Engine's massive satellite database with over thirty year
 
 Quick start options:
 
-- `npm i paper-dashboard-react`
 - Clone the repo: `git clone `.
 - npm install axios
 - npm install react-responsive-carousel
@@ -87,7 +86,6 @@ When navigating the website, you can
 
 # Built With
 - React JS
-- SQL
 
 # Contributing
 When submitting pull requests, please state clearly what changes were made, and what purpose they serve. 
