@@ -2,6 +2,8 @@ import Dashboard from "views/Dashboard.jsx";
 import News from "views/News.jsx";
 import About from "views/About.jsx";
 import Maps from "views/Map.jsx";
+import Satellite from "views/Satellite.jsx"; 
+
 
 var routes = [
   {
@@ -32,5 +34,11 @@ var routes = [
     component: News,
     layout: "/admin"
   },
+  {
+    path:"/satellite", 
+    name: "Satellite", 
+    component: Satellite, 
+    layout: "/admin"
+  }
 ];
 export default routes;
