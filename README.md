@@ -10,6 +10,9 @@ Quick start options:
 - Clone the repo: `git clone `.
 - `npm install axios`
 - `npm install react-responsive-carousel`
+-`npm install ol`
+- `npm install jquery`
+
 - launch on local server 
 
 
