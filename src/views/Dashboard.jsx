@@ -131,7 +131,7 @@ class Dashboard extends React.Component {
                   <p style={{color:"grey"}}>We can't ignore the dramatic ice melting in the Arctic any longer. </p>
                 </CardHeader>
                 <CardBody>
-                <Carousel autoPlay='true' showThumbs='false' transitionTime='200' infiniteLoop='true'>
+                <Carousel>
                 <div>
                 <img
                     alt="..."
