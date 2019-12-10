@@ -1,7 +1,8 @@
-# Satellite Raspberry
-We utilize the massive quantity of open-source satellite data to track and analyze quantitatively how natural stuctures have changed over time. Through image analysis and machine learning platforms we analyze this and present it for you to explore. You can look at specific locations and through Satellite Raspberry track deforestation, climate change effects, and fires. Awareness is the first step to change. This project seeks to help individuals and scientists make educated decisions on nature conservation efforts and first responder action. This issue is of growing importance as the effects of climate change become more severe. We are here to help make a change.
+# Raspberry
+Our platform aims to promote environmental awareness. Users can query environmental news on specific locations, search environmental datasets, as well as see satellite imagery. 
 
-Utilizing Google Earth Engine's massive satellite database with over thirty years of data we strive to help make a change. 
+Note: The satellite, data, and news tab displays are not fully implemented. 
+
 
 ## Quick start
 
@@ -14,32 +15,25 @@ Quick start options:
 - `npm install jquery`
 - `npm install react-json-pretty`
 
-
 - launch on local server 
 
-
+Note: you will have to get your own API keys
 
 ## File Structure
 
 Within the download you'll find the following directories and files:
 
 ```
-├── CHANGELOG.md
-├── ISSUE_TEMPLATE.md
-├── LICENSE.md
 ├── README.md
-├── docs
-│   └── documentation.html
 ├── jsconfig.json
 ├── package.json
 ├── public
+|   ├── apple-icon.png
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
 └── src
     ├── index.js
-    ├── logo-white.svg
-    ├── logo.svg
     ├── routes.js
     ├── components
     │   ├── FixedPlugin
@@ -53,14 +47,17 @@ Within the download you'll find the following directories and files:
     ├── layouts
     │   └── Admin.jsx
     ├── variables
-    │   ├── charts.jsx
-    │   ├── general.jsx
     │   └── icons.jsx
     ├── views
-    │   ├── Dashboard.jsx
     │   ├── About.jsx
-    │   ├── Map.jsx
+    │   ├── AstronomyCard.js
+    │   ├── Dashboard.jsx
+    │   ├── Data.jsx
+    │   ├── NASA.jsx
     │   ├── News.jsx
+    │   ├── sampledata.json
+    │   ├── Satellite.jsx
+    │   ├── Tables.jsx
     └── assets
         ├── css
         │   ├── paper-dashboard.css
@@ -83,14 +80,16 @@ Within the download you'll find the following directories and files:
 # How to use: 
 When navigating the website, you can 
 
-- select a specific location to analyse: 
-- use the map on the home page to navigate to a specific location 
-- select the year you would like to see 
-- look at various analysis of the data, as well as comparison with present day 
-- choose between the curated news sources about the location/date selected 
+- look at the dashboard of environmental facts
+- see the NASA satellite image of the day and description
+- query environmental news in a location
+- see a sample of JSON data gotten from the api query on datasets
 
 # Built With
 - React JS
+- Google Cloud Functions
+- NASA satellite API
+- Creative Tim UI
 
 # Contributing
 When submitting pull requests, please state clearly what changes were made, and what purpose they serve. 
@@ -102,4 +101,4 @@ Rakia Segev, Shivam Malpani, Anisha Tandon
 This project is licensed under the MIT License
 
 # Acknowledgments
-We used Google Maps API to implement location specification as well as time-based filtering. Our data was all obtained from the open-source database: NASA EPIC and Google Earth Engine. Our UI was adapted from a template from Creative Tim. We would like to thank Prof. Colleen Lewis for her guidance and support. 
+We used NASA satellite API and Google Cloud Functions. Our UI was adapted from a template from Creative Tim. We would like to thank Prof. Colleen Lewis for her guidance and support. 

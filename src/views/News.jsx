@@ -60,6 +60,7 @@ class News extends React.Component {
                   <Input placeholder="City" type="city" />
                   
               </FormGroup>
+
             <Button
               className="btn-round"
               color="primary"
