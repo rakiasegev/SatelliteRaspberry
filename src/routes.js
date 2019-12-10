@@ -1,9 +1,8 @@
 import Dashboard from "views/Dashboard.jsx";
 import News from "views/News.jsx";
 import About from "views/About.jsx";
-// import Maps from "views/Map.jsx";
 import Satellite from "views/Satellite.jsx"; 
-
+import Data from "views/Data.jsx";
 import NASA from "views/NASA.jsx";
 
 var routes = [
@@ -38,8 +37,16 @@ var routes = [
   {
     path:"/satellite", 
     name: "Satellite", 
+    icon: "nc-icon nc-spaceship",
     component: Satellite, 
     layout: "/admin"
-  }
+  },
+  {
+    path: "/data",
+    name: "Data",
+    icon: "nc-icon nc-chart-bar-32",
+    component: Data,
+    layout: "/admin"
+  },
 ];
 export default routes;
