@@ -8,8 +8,8 @@ Utilizing Google Earth Engine's massive satellite database with over thirty year
 Quick start options:
 
 - Clone the repo: `git clone `.
-- npm install axios
-- npm install react-responsive-carousel
+- `npm install axios`
+- `npm install react-responsive-carousel`
 - launch on local server 
 
 
