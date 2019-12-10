@@ -12,6 +12,8 @@ Quick start options:
 - `npm install react-responsive-carousel`
 -`npm install ol`
 - `npm install jquery`
+- `npm install react-json-pretty`
+
 
 - launch on local server 
 
